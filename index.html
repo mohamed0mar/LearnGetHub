@@ -1,0 +1,359 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+
+    <!-- !start header -->
+    <header id="home" class="header">
+        <div class="layer">
+            <!-- ?strat navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light py-4">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto ">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#menu">Our menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#testimonials">Testimonials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#team">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact Us</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </nav>
+            <!-- ?end navbar -->
+            <!-- ?start slider -->
+            <div class="slider-content  d-flex justify-content-center align-items-center h-100 text-center text-white">
+                <div class="">
+                    <h1>Dine Out Restaurant</h1>
+                    <p class=" w-75 m-auto p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aut minus
+                        reiciendis sint eligendi voluptate sit aspernatur porro eveniet cupiditate.</p>
+                    <button type="submit" class="btn btn-outline-warning rounded-pill text-white ">Our Menu</button>
+                </div>
+
+            </div>
+            <!-- ?end slider -->
+        </div>
+
+    </header>
+    <!-- !end header -->
+    <!-- !start section one -->
+    <section id="about" class="section-one  py-5 my-5">
+        <div class="container">
+            <div class="section-title text-center pb-5">
+                <h6>About</h6>
+                <h3>About Us</h3>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <h2>Welcome To Dine Out Restourant</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aperiam harum laudantium ad
+                            illo quidem ullam ratione blanditiis ab rerum, assumenda sed necessitatibus maxime possimus
+                            velit repellendus temporibus. Laudantium, accusamus.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aperiam harum laudantium ad
+                            illo quidem ullam ratione blanditiis ab rerum, assumenda sed necessitatibus maxime possimus
+                            velit repellendus temporibus. Laudantium, accusamus.</p>
+                        <button type="submit" class="btn btn-outline-warning rounded-pill text-white ">Check Our
+                            Menu</button>
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-6">
+                    <div>
+                        <img src="img/about-img.jpg" class="w-100 rounded-lg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- !end section one -->
+    <!-- !start section tow -->
+    <!-- Button trigger modal -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="recipesDetails" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div  id="recipesInfo" class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="menu" class="section-two py-4 my-4">
+        <div class="container">
+            <div class="section-title text-center pb-3">
+                <h6>Menu</h6>
+                <h3>Our Menu</h3>
+            </div>
+            <div class="col-md-12">
+                <div class="links mb-5">
+                    <ul class="navbar-nav flex-row d-flex justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link">pizza</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">hamburger</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">popcorn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">pasta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">seafood</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">blueberry</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="myRecipes" class="row">
+
+
+            </div>
+        </div>
+    </section>
+    <!-- !end section tow -->
+
+    <!-- !start section three -->
+    <section id="testimonials" class="section-three py-5 my-5">
+        <div class="container">
+            <div class="section-title text-center pb-3">
+                <h6>feedbacks</h6>
+                <h3>Some feedbacks</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-4 rounded">
+                    <div class="item p-3 my-3">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="item-info">
+                                    <h6>Raj Himachal</h6>
+                                    <p class="text-muted">Food Specialist</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 offset-2">
+                                <div class="item-img">
+                                    <img src="img/testimonials/22.jpg" class="rounded-circle" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, distinctio? Odio quas
+                            molestiae officiis ab animi modi aut, optio dolorum.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="item p-3 my-3">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="item-info">
+                                    <h6>Raj Himachal</h6>
+                                    <p class="text-muted">Food Specialist</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 offset-2">
+                                <div class="item-img">
+                                    <img src="img/testimonials/33.jpg" class="rounded-circle" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, distinctio? Odio quas
+                            molestiae officiis ab animi modi aut, optio dolorum.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4">
+                    <div class="item p-3 my-3">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="item-info">
+                                    <h6>Raj Himachal</h6>
+                                    <p class="text-muted">Food Specialist</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 offset-2">
+                                <div class="item-img">
+                                    <img src="img/testimonials/11.jpg" class="rounded-circle" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, distinctio? Odio quas
+                            molestiae officiis ab animi modi aut, optio dolorum.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- !end section three -->
+
+
+    <!-- !start section four -->
+    <section id="team" class="section-four  py-5 my-5">
+        <div class="container">
+            <div class="section-title text-center pb-3">
+                <h6>Chefs</h6>
+                <h3> Our Chefs</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-4 my-5">
+                    <div class="chef">
+                        <div class="chef-img">
+                            <img src="img/team/1.jpg" class="rounded-lg w-100" alt="">
+                        </div>
+                        <div class="chef-info  py-1 text-center rounded-lg">
+                            <h5>Raj Himachal</h3>
+                                <p class="text-muted">Head chef</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 my-5">
+                    <div class="chef">
+                        <div class="chef-img">
+                            <img src="img/team/2.jpg" class="rounded-lg w-100" alt="">
+                        </div>
+                        <div class="chef-info  py-1 text-center rounded-lg">
+                            <h5>Raj Himachal</h3>
+                                <p class="text-muted">Head chef</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 my-5">
+                    <div class="chef">
+                        <div class="chef-img">
+                            <img src="img/team/3.jpg" class="rounded-lg w-100" alt="">
+                        </div>
+                        <div class="chef-info  py-1 text-center rounded-lg">
+                            <h5>Raj Himachal</h3>
+                                <p class="text-muted">Head chef</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- !end section four -->
+
+    <!-- !start section five -->
+    <div id="contact" class="main-footer">
+        <div class="footer">
+            <div class="container">
+                <div class="row text-white my-4 py-5">
+                    <div class="col-md-4">
+                        <div class="location">
+                            <h4>Our Location</h4>
+                            <p class="text-muted">Xyz Street, Sector-12 <span class="d-block">New Delhi-000****</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="hours">
+                            <h4>Opening Hours</h4>
+                            <p class="text-muted">Manday to Sunday<span class="d-block">9:00 AM - 10:00 Pm</span></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="Contact Us">
+                            <h4>91 96545 293 ***</h4>
+                            <p class="text-muted">Xyz Street, Sector-12 <span class="d-block">info@gmail.com</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="d-flex justify-content-center flex-column  ">
+                    <div class=" w-75 divfooter m-auto"></div>
+                    <p class="text-white text-center pt-3">&copy;2021-Mohamed-Omar</p>
+
+                </div>
+            </footer>
+        </div>
+    </div>
+    <!--! end section five -->
+
+
+
+    <!-- !script -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
